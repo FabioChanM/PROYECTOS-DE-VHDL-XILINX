@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/favio/Desktop/ISE 14/bdc7segementos/bcd7segementos_isim_beh.exe" -prj "C:/Users/favio/Desktop/ISE 14/bdc7segementos/bcd7segementos_beh.prj" "work.bcd7segementos" 

@@ -1,0 +1,88 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml bcd7segementos.twx bcd7segementos.ncd -o
+bcd7segementos.twr bcd7segementos.pcf
+
+Design file:              bcd7segementos.ncd
+Physical constraint file: bcd7segementos.pcf
+Device,package,speed:     xc3s50a,vq100,-4 (PRODUCTION 1.42 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+ent<0>         |BCD<1>         |    6.900|
+ent<0>         |BCD<2>         |    6.937|
+ent<0>         |BCD<3>         |    7.179|
+ent<0>         |BCD<4>         |    7.134|
+ent<0>         |BCD<5>         |    7.106|
+ent<0>         |BCD<6>         |    7.154|
+ent<0>         |BCD<7>         |    7.356|
+ent<1>         |BCD<1>         |    6.792|
+ent<1>         |BCD<2>         |    6.828|
+ent<1>         |BCD<3>         |    7.070|
+ent<1>         |BCD<4>         |    7.026|
+ent<1>         |BCD<5>         |    7.123|
+ent<1>         |BCD<6>         |    7.696|
+ent<1>         |BCD<7>         |    7.392|
+ent<2>         |BCD<1>         |    7.909|
+ent<2>         |BCD<2>         |    7.909|
+ent<2>         |BCD<3>         |    8.151|
+ent<2>         |BCD<4>         |    8.143|
+ent<2>         |BCD<5>         |    8.005|
+ent<2>         |BCD<6>         |    7.366|
+ent<2>         |BCD<7>         |    8.285|
+ent<3>         |BCD<1>         |    6.860|
+ent<3>         |BCD<2>         |    6.851|
+ent<3>         |BCD<3>         |    7.093|
+ent<3>         |BCD<4>         |    7.094|
+ent<3>         |BCD<5>         |    7.127|
+ent<3>         |BCD<6>         |    7.494|
+ent<3>         |BCD<7>         |    7.427|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Oct 15 10:06:49 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4504 MB
+
+
+

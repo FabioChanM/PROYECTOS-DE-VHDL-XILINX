@@ -1,0 +1,6 @@
+[Inputs]
+=ent[3:0]=
+[Outputs]
+=selec[3:0]=
+=BCD[7:0]=
+[BiDir]
